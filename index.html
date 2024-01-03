@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Landing Page</title>
 </head>
 <body>
     <div class="header">
         
         <div class="header-top">
-            <p>Header Logo</p>
+            <div class="header-logo">Header Logo</div>
             <div class="links">
                 <ul>
                     <li><a href="#">header link one</a></li>
@@ -23,46 +24,49 @@
             <div class="header-content">
                 <p class="header-main">This website is awesome</p>
                 <p class="secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+                <button class="header-button">Sign up</button>
             </div>
-            <img src="#" alt="this is a placeholder for an image">
+            <div class="header-img">
+                <img src="" alt="this is a placeholder for an image">
+            </div>
         </div>
     </div>
 
     <div class="main-content">
-        <p class="main">Some random information</p>
+        <div class="main">Some random information</div>
         <div class="cards">
             <div class="card">
-                <img src="#" alt="img-1">
+                <img class="card-img" src="" alt="">
                 <p class="card-text">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
-                <img src="#" alt="img-2">
+                <img class="card-img" src="" alt="">
                 <p class="card-text">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
-                <img src="#" alt="img-3">
+                <img class="card-img" src="" alt="">
                 <p class="card-text">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
-                <img src="#" alt="img-4">
+                <img class="card-img" src="" alt="">
                 <p class="card-text">this is some subtext under an illustration or image</p>
             </div>
         </div>
+
+    </div>
 
         <div class="quote">
-            <p class="quote-content">THis is an inspiring quote, or a testimonial from a customer. Maybe it's just fill up space, or maybe people will actually read it. Who know? All I know is that it looks nice.</p>
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just fill up space, or maybe people will actually read it. Who know? All I know is that it looks nice.</p>
             <p class="sign">-Thor, God of Thunder</p>
         </div>
-    </div>
-
-    <div class="sign">
-        <div class="signpup">
-            <p>Call to action! It's time!</p>
-            <p>sign up for our product by clicking that button right over there!</p>
+        
+        <div class="call">
+            <div class="signpup">
+                <p class="call-text-1">Call to action! It's time!</p>
+                <p class="call-text-2">sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="call-button">Sign up</button>
         </div>
-        <button>Sign up</button>
-    </div>
 
     <footer>Copyright © The Odin Project 2021</footer>
 </body>
